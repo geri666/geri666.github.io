@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: lightgray;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 1vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.header {
+    border: 5px solid lime;
+}
+
+.pagelink {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 25px;
+}
+
+.pagelink:hover {
+    color: forestgreen;
+    font-style: italic;
+}
+
+.headertext {
+    display: inline-block;
+    margin: 1vw;
+}
+
+#title {
+    font-size: 75px;
+    color: lime;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+.footertext {
+    border-top: 5px darkslategray solid;
+    margin-top: 15vw;
+    padding-top: 1vw;
+}
+
+.footerlink {
+    text-decoration: underline;
+    color: lightgray;
+}
+
+.footerlink:hover {
+    color: forestgreen;
+}
+
+.myfooter {
+    font-size: 17px;
+}
+
+#currentpage {
+    font-weight: bolder;
+}
+
+img {
+    border: 5px solid lime;
+    width: 70vw;
+}
+
+.imgdesc {
+    margin-top: 1vw;
+}
