@@ -1,11 +1,66 @@
+@font-face {
+    font-family: smalle;
+    src: url(fonts/smalle/smalle.ttf);
+}
+
+@font-face {
+    font-family: cpixel;
+    src: url(fonts/computer_pixel_7/computer_pixel-7.ttf);
+}
+
+@font-face {
+    font-family: retroville;
+    src: url(fonts/retroville_nc/Retroville\ NC.ttf);
+}
+
+@font-face {
+    font-family: pixelpoiiz;
+    src: url(fonts/pixelpoiiz/pixelpoiiz.ttf);
+}
+
+@font-face {
+    font-family: pixellari;
+    src: url(fonts/pixellari/Pixellari.ttf);
+}
+
+@font-face {
+    font-family: paskowy;
+    src: url(fonts/paskowy/Paskowy.ttf);
+}
+
+@font-face {
+    font-family: deltarune;
+    src: url(fonts/deltarune/deltarune.ttf);
+}
+
+@font-face {
+    font-family: o4b;
+    src: url(fonts/04b_30/04B_30__.TTF);
+}
+
 body {
     background-color: black;
     color: lightgray;
-    font-family: monospace;
+    font-family: smalle;
     text-align: center;
     margin-top: 1vw;
     margin-right: 2vw;
     margin-left: 2vw;
+}
+
+h1 {
+    color: lime;
+    font-family: deltarune;
+    font-size: 6vw;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+img {
+    border: 5px solid lime;
+    width: 70vw;
 }
 
 .header {
@@ -13,13 +68,14 @@ body {
 }
 
 .pagelink {
-    text-decoration: none;
+    text-decoration: underline;
     color: lightgray;
     font-size: 25px;
 }
 
 .pagelink:hover {
     color: forestgreen;
+    font-weight: bolder;
     font-style: italic;
 }
 
@@ -28,13 +84,24 @@ body {
     margin: 1vw;
 }
 
-#title {
-    font-size: 75px;
-    color: lime;
+.pagelink-entry {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
 }
 
-h5 {
-    font-size: 17px;
+.pagelink-entry:hover {
+    cursor: not-allowed;
+    color: rgb(0, 0, 0);
+}
+
+.headertext-entry {
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
 }
 
 .footertext {
@@ -50,19 +117,16 @@ h5 {
 
 .footerlink:hover {
     color: forestgreen;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 .myfooter {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 #currentpage {
     font-weight: bolder;
-}
-
-img {
-    border: 5px solid lime;
-    width: 70vw;
 }
 
 .imgdesc {
