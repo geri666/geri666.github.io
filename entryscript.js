@@ -8,12 +8,8 @@ $("#button").click(function() {
 
     timesclicked = timesclicked + 1;
 
-    if (timesclicked == 1) {
-        // change cursor maybe idk
+    if (timesclicked == 1) { // change cursor maybe idk
     } else if (timesclicked == 2) {
         window.open("home.html", "_self");
-
     }
-
-
 });
