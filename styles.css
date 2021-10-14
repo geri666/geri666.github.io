@@ -54,6 +54,10 @@ h1 {
     font-size: 6vw;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 h5 {
     font-size: 20px;
 }
@@ -105,7 +109,7 @@ img {
 }
 
 .footertext {
-    border-top: 5px darkslategray solid;
+    border-top: 5px lightgray solid;
     margin-top: 15vw;
     padding-top: 1vw;
 }
@@ -131,4 +135,20 @@ img {
 
 .imgdesc {
     margin-top: 1vw;
+}
+
+.aboutbox {
+    display: flex;
+    text-align: start;
+    padding: 10px;
+    width: 100%;
+}
+
+.container2 {
+    padding-top: 10px;
+    border: solid lime 5px;
+}
+
+#bold {
+    font-weight: bolder;
 }
