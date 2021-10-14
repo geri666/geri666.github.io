@@ -1,0 +1,22 @@
+body {
+    background-image: url("/fonts/smalle/gihunwide.jpg");
+    background-size: 100%;
+}
+
+img {
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
