@@ -1,2 +1,2 @@
-# LINKS NOT WORKING IDK WHY ?????
-html and css website idk
+# personal little website
+still in work!
