@@ -1,15 +1,18 @@
 var timesclicked = 0;
 const button = document.getElementById("button");
-var green = 0;
+const entrybutton = document.getElementById("entrybutton");
+const currentFontSize = window.getComputedStyle(document.getElementById("button")).fontSize;
+var newFontSize;
+var num = 1;
 
-$("#button").click(function() {
-    button.style.color = "rgb(0," + (green + 255) + ",0)";
-    green = green + 255;
-
+$("#entrybutton").click(function() {
+    num = num + 1;
     timesclicked = timesclicked + 1;
+    newFontSize = currentFontSize.replace(currentFontSize.charAt(1), num);
 
-    if (timesclicked == 1) { // change cursor maybe idk
-    } else if (timesclicked == 2) {
+    button.style.fontSize = newFontSize;
+
+    if (timesclicked == 3) {
         window.open("home.html", "_self");
     }
 });
