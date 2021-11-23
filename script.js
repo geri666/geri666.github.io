@@ -4,7 +4,7 @@ $(".footertext").click(function() {
     times = times + 1;
 
     if (times >= 5) {
-        window.open("fonts/smalle/easteregg.html", "_self");
+        // easteregg idk
     }
 
 });
